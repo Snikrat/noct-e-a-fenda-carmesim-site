@@ -25,3 +25,11 @@ Preencha `kindleUrl` em `public/assets/js/config.js` com o endereço HTTPS da p�
 A capa e a arte completa abrem em um visualizador. Feche pelo botão, pelo fundo ou por Esc. Sem JavaScript, os links abrem as imagens diretamente.
 
 Repositório independente do jogo. O site não inclui leitor ou editor.
+
+## GitHub Pages
+
+Publicado pela branch `gh-pages`, gerada a partir de `public/`. Para atualizar depois de salvar um commit na main:
+
+`git subtree split --prefix public -b publicacao-atualizada` 
+`git push origin publicacao-atualizada:gh-pages` 
+`git branch -D publicacao-atualizada`
