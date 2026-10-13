@@ -78,7 +78,7 @@ a:focus-visible, button:focus-visible {
 .abertura { position: relative; isolation: isolate; overflow: hidden; padding-block: clamp(3rem, 9vw, 7rem); min-height: calc(100vh - 3.5rem); display: flex; align-items: center; }
 .abertura-fundo {
   position: absolute; inset: 0; z-index: -1;
-  background: linear-gradient(180deg, rgba(7, 6, 12, .55), rgba(7, 6, 12, .8) 70%, var(--breu)), url("../img/capa/contracapa.png") center 70% / cover no-repeat;
+  background: linear-gradient(180deg, rgba(7, 6, 12, .55), rgba(7, 6, 12, .8) 70%, var(--breu)), url("../img/capa/fundo.webp") center 70% / cover no-repeat;
 }
 .abertura-grade { display: grid; grid-template-columns: minmax(0, 22rem) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
 .capa { margin: 0; }
@@ -177,3 +177,6 @@ a:focus-visible, button:focus-visible {
   .acoes .botao { width: 100%; }
   .visualizador-conteudo p { font-size: .85rem; }
 }
+
+.apresentacao { max-width: 32rem; color: var(--texto); margin: 0 0 2rem; }
+@media (max-width: 760px) { .apresentacao { margin-inline: auto; } }
