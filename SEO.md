@@ -1,7 +1,7 @@
 # SEO e indexação
 
-URL canônica: https://snikrat.github.io/noct-e-a-fenda-carmesim-site/
-Sitemap: https://snikrat.github.io/noct-e-a-fenda-carmesim-site/sitemap.xml
+URL canônica: https://noctefendacarmesim.com.br/
+Sitemap: https://noctefendacarmesim.com.br/sitemap.xml
 
 ## Configuração concluída
 
@@ -18,12 +18,12 @@ Não há preço, ISBN, avaliações ou data de lançamento inventados nos dados 
 
 A verificação exige acesso à conta Google do proprietário. Ela ainda não foi realizada.
 
-## Limite da hospedagem
+## Domínio próprio
 
-Um robots.txt só é válido na raiz do domínio (https://snikrat.github.io/robots.txt). Colocar esse arquivo no subdiretório do projeto não configura o rastreamento. Por isso este projeto não publica um robots.txt ineficaz; o sitemap pode ser enviado diretamente no Search Console. O robots.txt da raiz, caso exista, é gerenciado no repositório do site principal do usuário.
+O site usa https://noctefendacarmesim.com.br/. O arquivo public/CNAME preserva esse domínio nas publicações da branch gh-pages. Um robots.txt, se adicionado em public/, será servido na raiz do domínio. O sitemap pode ser enviado diretamente no Search Console.
 
 ## Manutenção
 
-Ao publicar o livro, configure o link Kindle e adicione ISBN/data de publicação somente após confirmação. Mantenha a sinopse e a biografia atualizadas, atualize lastmod do sitemap quando o conteúdo mudar e acompanhe indexação, consultas e desempenho no Search Console. Domínio próprio, menções e links reais de páginas de autor, editora e lojas são próximos passos possíveis.
+Ao publicar o livro, configure o link Kindle e adicione ISBN/data de publicação somente após confirmação. Mantenha a sinopse e a biografia atualizadas, atualize lastmod do sitemap quando o conteúdo mudar e acompanhe indexação, consultas e desempenho no Search Console. Menções e links reais de páginas de autor, editora e lojas são próximos passos possíveis.
 
 Não há garantia de posição ou prazo de indexação.
